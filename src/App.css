@@ -26,6 +26,10 @@
         font-weight: inherit;
         font-style: normal;
         cursor: none;
+        /* background: linear-gradient(-45deg, #021526, #042A4C, #063F72, #085498);
+        background-size: 400% 400%;
+        animation: gradient 30s ease infinite;
+        height: 100vh; */
     }
 
     li {
@@ -82,6 +86,20 @@
 
         100% {
             transform: scale(1);
+        }
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0% 50%;
         }
     }
 }
