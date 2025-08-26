@@ -38,7 +38,7 @@ const Card = ({ image, title }: CardProps) => {
       <div className={`img-wrapper ${animationStep >= 5 ? 'animate-height' : ''}`}>
         <img
           className={`img ${animationStep >= 6 ? 'animate-show' : ''} w-full h-full object-cover rounded-sm`}
-          src={`/images/${image}`}
+          src={`${import.meta.env.VITE_BASENAME}images/${image}`}
           alt="Proyecto"
         />
         <div className="overlay "></div>

@@ -3,7 +3,9 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import CursorCustom from './components/CursorCustom';
 import './App.css';
+import './styles/MenuMobile.css';
 import { ROUTES } from './routes/index';
+import MenuMobile from './components/MenuMobile';
 
 // Lazy load pages
 const Home = lazy(() => import('./pages/Home'));
@@ -69,6 +71,9 @@ export default function App() {
     <div className="overflow-hidden">
       <CursorCustom />
       <AnimatedRoutes />
+      <div className="fixed bottom-9 left-4 md:hidden">
+        <MenuMobile />
+      </div>
     </div>
   );
 }
