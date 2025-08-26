@@ -68,6 +68,10 @@
         @apply text-2xl sm:text-3xl md:text-4xl xl:text-5xl;
     }
 
+    h5{
+        @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
+    }
+
     p {
         @apply text-base sm:text-lg md:text-xl lg:text-2xl text-justify;
     }
@@ -84,15 +88,35 @@
         z-index: 999;
     }
 
-    /* .truncate-3-lines {
-        display: -webkit-box;
-        -webkit-line-clamp: 3;
-        -webkit-box-orient: vertical;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: normal;
-        max-height: 10rem;
-    } */
+    .group {
+        position: relative;
+    }
+
+    .group::before {
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        /* La luz debajo del icono */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 15px;
+        background: radial-gradient(circle, rgba(0, 255, 255, 0.6) 0%, transparent 70%);
+        filter: blur(6px);
+        opacity: 0;
+        transition: opacity 0.4s ease, transform 0.4s ease;
+        border-radius: 50%;
+    }
+
+    .group:hover::before {
+        opacity: 1;
+        transform: translateX(-50%) scale(1.2);
+    }
+
+    .group:hover::before {
+        opacity: 1;
+        animation: pulseGlow 2s infinite ease-in-out;
+    }
 
     @keyframes pulse {
         0% {
