@@ -1,0 +1,46 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Bolsa de Trabajo",
+            "description": "Una plataforma para encontrar oportunidades laborales.",
+            "image": "chambaticon-home-mobile.png"
+        },
+        {
+            "id": 2,
+            "title": "Marketplace de Productos Verdes",
+            "description": "Un sitio para comprar y vender productos ecológicos.",
+            "image": "masverde-home-mobile.png"
+        },
+        {
+            "id": 3,
+            "title": "Plataforma de Bienes y Muebles",
+            "description": "Un sitio para ver y agendar citas de bienes y muebles.",
+            "image": "invierteca-home-mobile.png"
+        },
+        {
+            "id": 4,
+            "title": "Medidores de Ecoeficiencia",
+            "description": "Herramientas para medir y mejorar la eficiencia energética.",
+            "image": "ecoeficiencia-home-mobile.png"
+        },
+        {
+            "id": 5,
+            "title": "Catálogo de Productos",
+            "description": "Un catálogo para explorar productos variados.",
+            "image": "artesaniaskelly-home-mobile.png"
+        },
+        {
+            "id": 6,
+            "title": "Hotel y Turismo",
+            "description": "Un sitio para reservar y gestionar estancias en hoteles.",
+            "image": "cabanasymiradorelpericon-home-mobile.png"
+        },
+        {
+            "id": 7,
+            "title": "Blog de Ciencias",
+            "description": "Un blog para compartir conocimientos y proyectos de ciencias.",
+            "image": "infoquest-home-mobile.png"
+        }
+    ]
+}
