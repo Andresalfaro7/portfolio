@@ -5,6 +5,7 @@ import { ROUTES } from './routes/index'
 import CursorCustom from './components/CursorCustom';
 
 const Home = lazy(() => import('./pages/Home'));
+const Projects = lazy(() => import('./pages/Projects'));
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Suspense fallback={<div>Cargando...</div>}>
         <Routes>
           <Route path={ROUTES.HOME} element={<Home />} />
+          <Route path={ROUTES.PROJECTS} element={<Projects />} />
         </Routes>
       </Suspense>
     </Router>

@@ -45,6 +45,10 @@
         transform-origin: left center;
     }
 
+    a {
+        cursor: none;
+    }
+
     h1 {
         font-family: "Beau Rivage", cursive;
         font-weight: 400;
@@ -60,6 +64,10 @@
         @apply text-lg sm:text-xl md:text-2xl lg:text-5xl;
     }
 
+    h4 {
+        @apply text-base sm:text-lg md:text-xl lg:text-3xl;
+    }
+
     p {
         @apply text-base sm:text-lg md:text-xl lg:text-2xl text-justify;
     }
@@ -73,6 +81,7 @@
         pointer-events: none;
         mix-blend-mode: difference;
         animation: pulse 1.5s infinite;
+        z-index: 999;
     }
 
     @keyframes pulse {

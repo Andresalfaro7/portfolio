@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface SlideInTextProps {
   text: string;
@@ -6,7 +6,7 @@ interface SlideInTextProps {
   className?: string;
 }
 
-const SlideInText: React.FC<SlideInTextProps> = ({ text, delay = 0, className }) => {
+const SlideInText = ({ text, delay = 0, className }: SlideInTextProps) => {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {

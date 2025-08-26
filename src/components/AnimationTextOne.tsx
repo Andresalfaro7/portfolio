@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 interface AnimationTextOneProps {
   text: string;
@@ -6,7 +6,7 @@ interface AnimationTextOneProps {
   className?: string;
 }
 
-const AnimationTextOne: React.FC<AnimationTextOneProps> = ({ text, speed = 100, className }) => {
+const AnimationTextOne = ({ text, speed = 100, className }: AnimationTextOneProps) => {
   const [displayedIndex, setDisplayedIndex] = useState(0);
 
   // Convertimos el texto a array de caracteres seguro Unicode
