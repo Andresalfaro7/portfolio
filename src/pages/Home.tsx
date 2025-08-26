@@ -7,7 +7,7 @@ const Home = () => {
         <div className="flex h-screen items-center p-10">
             <div className="w-1/2">
                 <nav className="text-3xl">
-                    <li className="w-fit"><Link to={'/'}><SlideInText text="Inicio" delay={0}/></Link></li>
+                    <li className="w-fit"><Link to={'/'}><SlideInText text="Home" delay={0}/></Link></li>
                     <li className="w-fit"><Link to={'/proyectos'}><SlideInText text="Proyectos" delay={100}/></Link></li>
                     <li className="w-fit"><Link to={'/stack'}><SlideInText text="Stack" delay={200}/></Link></li>
                     <li className="w-fit"><Link to={'/contactos'}><SlideInText text="Contactos" delay={300}/></Link></li>

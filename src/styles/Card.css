@@ -7,13 +7,22 @@
   transition: border-color 0.3s ease;
 }
 
+.card:hover {}
+
 .card>.img-wrapper {
   position: relative;
-  transform: translate(50px, -70px);
+  transform: translate(50px, -70px) scale(1);
+  /* Escala inicial */
   height: inherit;
   background-color: transparent;
   overflow: hidden;
-  transition: height 1s ease, background-color 1s ease;
+  transition: height 1s ease, background-color 1s ease, transform 1.2s ease;
+  /* 👈 Agregamos transform aquí */
+}
+
+.card>.img-wrapper:hover {
+  transform: translate(50px, -70px) scale(1.1);
+  /* 👈 Zoom suave */
 }
 
 .card>.img {
@@ -67,7 +76,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .card{
+  .card {
     width: 200px;
   }
 }
@@ -81,8 +90,12 @@
     height: 100%;
   }
 
-  .card{
+  .card {
     transform: skewX(0deg);
     width: 100%;
+  }
+
+  .card>.img-wrapper:hover {
+    transform: scale(1.1);
   }
 }
