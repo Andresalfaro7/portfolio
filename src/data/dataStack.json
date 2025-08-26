@@ -6,11 +6,12 @@
   { "id": 5, "name": "Node JS", "icon": "FaNodeJs", "color": "text-green-600" },
   { "id": 6, "name": "Express", "icon": "SiExpress", "color": "text-gray-600" },
   { "id": 7, "name": "Angular", "icon": "FaAngular", "color": "text-red-600" },
-  { "id": 8, "name": "TailwindCSS", "icon": "SiTailwindcss", "color": "text-cyan-400" },
-  { "id": 9, "name": "Bootstrap", "icon": "SiBootstrap", "color": "text-purple-600" },
-  { "id": 10, "name": "Postman", "icon": "SiPostman", "color": "text-orange-500" },
-  { "id": 11, "name": "Wordpress", "icon": "FaWordpress", "color": "text-blue-500" },
-  { "id": 12, "name": "Workbench", "icon": "DiMysql", "color": "text-teal-500" },
+  { "id": 8, "name": "TypeScript", "icon": "SiTypescript", "color": "text-sky-700" },
+  { "id": 9, "name": "TailwindCSS", "icon": "SiTailwindcss", "color": "text-cyan-400" },
+  { "id": 10, "name": "Bootstrap", "icon": "SiBootstrap", "color": "text-purple-600" },
+  { "id": 11, "name": "Postman", "icon": "SiPostman", "color": "text-orange-500" },
+  { "id": 12, "name": "Wordpress", "icon": "FaWordpress", "color": "text-blue-500" },
+  { "id": 13, "name": "Workbench", "icon": "DiMysql", "color": "text-teal-500" },
   { "id": 13, "name": "phpMyAdmin", "icon": "SiPhpmyadmin", "color": "text-yellow-600" },
   { "id": 14, "name": "GCP", "icon": "SiGooglecloud", "color": "text-blue-700" }
 ]

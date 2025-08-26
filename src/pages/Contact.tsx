@@ -31,7 +31,7 @@ const Contact = () => {
 
                     return (
                         <motion.a
-                            key={contact.id}
+                            key={idx}
                             href={contact.url}
                             target="_blank"
                             rel="noopener noreferrer"

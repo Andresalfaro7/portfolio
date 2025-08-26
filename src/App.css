@@ -68,7 +68,7 @@
         @apply text-2xl sm:text-3xl md:text-4xl xl:text-5xl;
     }
 
-    h5{
+    h5 {
         @apply text-lg sm:text-xl md:text-2xl lg:text-3xl;
     }
 
@@ -116,6 +116,16 @@
     .group:hover::before {
         opacity: 1;
         animation: pulseGlow 2s infinite ease-in-out;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .cursor {
+            display: none;
+        }
+
+        body{
+            cursor: default;
+        } 
     }
 
     @keyframes pulse {

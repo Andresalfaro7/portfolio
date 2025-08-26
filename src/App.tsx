@@ -1,9 +1,11 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import CursorCustom from './components/CursorCustom';
 import './App.css';
+import './styles/MenuMobile.css';
 import { ROUTES } from './routes/index';
+import MenuMobile from './components/MenuMobile';
 
 // Lazy load pages
 const Home = lazy(() => import('./pages/Home'));
@@ -66,11 +68,12 @@ const AnimatedRoutes = () => {
 // App principal
 export default function App() {
   return (
-    <Router>
-      <div className="overflow-hidden">
-        <CursorCustom />
-        <AnimatedRoutes />
+    <div className="overflow-hidden">
+      <CursorCustom />
+      <AnimatedRoutes />
+      <div className="fixed bottom-9 left-4 md:hidden">
+        <MenuMobile />
       </div>
-    </Router>
+    </div>
   );
 }
