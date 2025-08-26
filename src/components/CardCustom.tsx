@@ -33,16 +33,17 @@ const Card = ({ image, title }: CardProps) => {
       ${animationStep >= 2 ? 'animate-border-right' : ''}
       ${animationStep >= 3 ? 'animate-border-bottom' : ''}
       ${animationStep >= 4 ? 'animate-border-left' : ''}
+      md:mx-10 xl:mx-5
     `}>
       <div className={`img-wrapper ${animationStep >= 5 ? 'animate-height' : ''}`}>
         <img
-          className={`img ${animationStep >= 6 ? 'animate-show' : ''} w-full h-full object-cover`}
+          className={`img ${animationStep >= 6 ? 'animate-show' : ''} w-full h-full object-cover rounded-sm`}
           src={`/images/${image}`}
           alt="Proyecto"
         />
         <div className="overlay "></div>
       </div>
-        <h4 className="px-2 line-clamp-3">{title}</h4>
+        <h4 className="px-1 lg:px-0 line-clamp-3 my-4">{title}</h4>
     </div>
   );
 };
