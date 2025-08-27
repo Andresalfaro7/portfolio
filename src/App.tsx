@@ -71,7 +71,7 @@ export default function App() {
     <div className="overflow-hidden">
       <CursorCustom />
       <AnimatedRoutes />
-      <div className="fixed bottom-9 left-4 md:hidden">
+      <div className="fixed bottom-9 left-4">
         <MenuMobile />
       </div>
     </div>
