@@ -8,7 +8,7 @@ const CursorCustom = () => {
     useEffect(() => {
 
         const handleMouseMove = (e: MouseEvent): void => {
-            setPosition({ x: e.clientX, y: e.clientY });
+            setPosition({ x: e.clientX - 15, y: e.clientY - 15 });
         };
 
         const handleClick = () => {
