@@ -67,3 +67,10 @@ export default tseslint.config([
   },
 ])
 ```
+# Command NPM Package
+- npm install tailwindcss @tailwindcss/vite
+- npm install react-icons --save
+- npm install framer-motion
+- npm install gh-pages --save-dev
+
+
