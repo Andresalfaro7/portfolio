@@ -12,7 +12,6 @@ const MenuMobile = () => {
     const handleCheckboxChange = () => setIsChecked(!isChecked);
 
     const isHome = location.pathname === "/";
-    console.log(isHome);
 
     const handleButtonClick = () => {
         if (isChecked) {
