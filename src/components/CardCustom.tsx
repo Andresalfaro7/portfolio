@@ -1,8 +1,6 @@
 // Card.tsx - Versión mejorada
 import { useEffect, useState } from "react";
 import "../styles/card.css";
-import { Link } from "react-router-dom";
-// import chambaticon from '../public/images/chabaticon-home.png';
 
 interface CardProps {
   image?: string;
