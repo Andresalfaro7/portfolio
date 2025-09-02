@@ -1,14 +1,16 @@
 // Card.tsx - Versión mejorada
 import { useEffect, useState } from "react";
 import "../styles/card.css";
+import { Link } from "react-router-dom";
 // import chambaticon from '../public/images/chabaticon-home.png';
 
 interface CardProps {
   image?: string;
   title: string;
+  url?: string;
 }
 
-const Card = ({ image, title }: CardProps) => {
+const Card = ({ image, title, url }: CardProps) => {
   const [animationStep, setAnimationStep] = useState(0);
 
   useEffect(() => {
@@ -43,7 +45,14 @@ const Card = ({ image, title }: CardProps) => {
         />
         <div className="overlay "></div>
       </div>
-        <h4 className="px-1 lg:px-0 line-clamp-3 my-4">{title}</h4>
+      <h5 className="px-1 lg:px-0 line-clamp-3 my-4">
+        {url !== '#' 
+          ? <a href={url} target="_blank" rel="noopener noreferrer">
+              {title}
+            </a>
+          : <span>{title}</span>
+        }
+      </h5>
     </div>
   );
 };

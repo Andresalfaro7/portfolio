@@ -4,43 +4,50 @@
             "id": 1,
             "title": "Bolsa de Trabajo",
             "description": "Una plataforma para encontrar oportunidades laborales.",
-            "image": "chambaticon-home-mobile.png"
+            "image": "chambaticon-home-mobile.png",
+            "url": "https://chambaticon.ticongle.com/"
         },
         {
             "id": 2,
             "title": "Marketplace de Productos Verdes",
             "description": "Un sitio para comprar y vender productos ecológicos.",
-            "image": "masverde-home-mobile.png"
+            "image": "masverde-home-mobile.png",
+            "url": "http://masverde.sv/"
         },
         {
             "id": 3,
             "title": "Plataforma de Bienes y Muebles",
             "description": "Un sitio para ver y agendar citas de bienes y muebles.",
-            "image": "invierteca-home-mobile.png"
+            "image": "invierteca-home-mobile.png",
+            "url": "https://invierteca.com/"
         },
         {
             "id": 4,
             "title": "Medidores de Ecoeficiencia",
             "description": "Herramientas para medir y mejorar la eficiencia energética.",
-            "image": "ecoeficiencia-home-mobile.png"
+            "image": "ecoeficiencia-home-mobile.png",
+            "url": "#"
         },
         {
             "id": 5,
             "title": "Catálogo de Productos",
             "description": "Un catálogo para explorar productos variados.",
-            "image": "artesaniaskelly-home-mobile.png"
+            "image": "artesaniaskelly-home-mobile.png",
+            "url": "https://artesaniaskelly.com.sv/"
         },
         {
             "id": 6,
             "title": "Hotel y Turismo",
             "description": "Un sitio para reservar y gestionar estancias en hoteles.",
-            "image": "cabanasymiradorelpericon-home-mobile.png"
+            "image": "cabanasymiradorelpericon-home-mobile.png",
+            "url": "https://cabanasymiradorelpericon.com.sv/"
         },
         {
             "id": 7,
             "title": "Blog de Ciencias",
             "description": "Un blog para compartir conocimientos y proyectos de ciencias.",
-            "image": "infoquest-home-mobile.png"
+            "image": "infoquest-home-mobile.png",
+            "url": "https://andresalfaro7.github.io/info-quest"
         }
     ]
 }
