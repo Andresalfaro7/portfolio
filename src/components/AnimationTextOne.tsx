@@ -6,7 +6,7 @@ interface AnimationTextOneProps {
   className?: string;
 }
 
-const AnimationTextOne = ({ text, speed = 100, className }: AnimationTextOneProps) => {
+const   AnimationTextOne = ({ text, speed = 100, className }: AnimationTextOneProps) => {
   const [displayedIndex, setDisplayedIndex] = useState(0);
 
   // Convertimos el texto a array de caracteres seguro Unicode
