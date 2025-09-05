@@ -17,11 +17,11 @@ const Home = () => {
                 </nav>
             </section>
             <section className="w-full md:w-2/3 relative">
-                <div className="hidden md:block absolute w-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="hidden md:block absolute w-full left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:p-5">
                     <ComputerAnimation width="100%" height="100%" />
                 </div>
-                <motion.div  
-                    className="flex flex-col items-center text-center relative z-10 md:px-14 lg:px-24 xl:px-32 md:pb-20 lg:pb-28 "
+                <motion.div
+                    className="flex flex-col items-center text-center relative z-10 md:px-14 lg:px-28 xl:px-36 md:pb-20 xl:pb-28 "
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
