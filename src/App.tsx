@@ -35,7 +35,7 @@ const PageWrapper = ({ children, left, top }: PageWrapperProps) => {
 
   return (
     <motion.div
-      className="min-h-screen w-screen"
+      className="min-h-dvh w-screen"
       variants={variants}
       initial="enter"
       animate="center"
@@ -53,7 +53,7 @@ const AnimatedRoutes = () => {
 
   return (
     <AnimatePresence mode="wait">
-      <Suspense fallback={<div className="flex justify-center items-center min-h-screen">Cargando...</div>}>
+      <Suspense fallback={<div className="flex justify-center items-center min-h-dvh">Cargando...</div>}>
         <Routes location={location} key={location.pathname}>
           <Route path={ROUTES.HOME} element={<PageWrapper top={true}><Home /></PageWrapper>} />          {/* from top */}
           <Route path={ROUTES.PROJECTS} element={<PageWrapper left={false}><Projects /></PageWrapper>} />     {/* from right */}
@@ -68,7 +68,7 @@ const AnimatedRoutes = () => {
 // App principal
 export default function App() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden min-h-dvh">
       <CursorCustom />
       <AnimatedRoutes />
       <div className="fixed bottom-9 left-4">
