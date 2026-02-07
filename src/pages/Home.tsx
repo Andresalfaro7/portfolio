@@ -9,14 +9,14 @@ import { useEffect } from "react";
 
 const Home = () => {
     const sound = new Howl({
-        src: ["/sounds/computer-keyboard-typing.mp3"],
+        src: [`${import.meta.env.VITE_BASENAME}sounds/computer-keyboard-typing.mp3`],
         volume: 0.5,
     });
     useEffect(() => {
         sound.play();
     }, []);
     return (
-        <div className="flex h-screen items-center p-10">
+        <div className="flex min-h-dvh items-center p-10">
             <section className="hidden md:block md:w-1/3">
                 <nav className="text-3xl">
                     <li className="w-fit"><Link to={'/'}><SlideInText text="Home" delay={0} /></Link></li>
