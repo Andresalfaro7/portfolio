@@ -3,7 +3,7 @@ import technologies from "../data/dataStack.json";
 
 interface TechItem {
     id: number;
-    icon: keyof typeof import("react-icons/fa") | keyof typeof import("react-icons/si") | keyof typeof import("react-icons/di");
+    icon: keyof typeof import("react-icons/fa") | keyof typeof import("react-icons/si") | keyof typeof import("react-icons/di") | keyof typeof import("react-icons/lia") | keyof typeof import("react-icons/ri");
     name: string;
     color: string;
 }

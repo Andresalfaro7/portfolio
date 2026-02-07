@@ -3,9 +3,18 @@ import AnimationTextOne from "../components/AnimationTextOne";
 import SlideInText from "../components/SlideInText";
 import ComputerAnimation from "../components/ComputerAnimation";
 import { motion } from "framer-motion";
+import { Howl } from "howler";
+import { useEffect } from "react";
 
 
 const Home = () => {
+    const sound = new Howl({
+        src: ["/sounds/computer-keyboard-typing.mp3"],
+        volume: 0.5,
+    });
+    useEffect(() => {
+        sound.play();
+    }, []);
     return (
         <div className="flex h-screen items-center p-10">
             <section className="hidden md:block md:w-1/3">
