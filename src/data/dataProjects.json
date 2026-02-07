@@ -23,31 +23,31 @@
         },
         {
             "id": 4,
-            "title": "Medidores de Ecoeficiencia",
-            "description": "Herramientas para medir y mejorar la eficiencia energética.",
-            "image": "ecoeficiencia-home-mobile.png",
-            "url": "#"
+            "title": "Restaurante, Bar y Café",
+            "description": "Sitio web de restaurante, bar y café.",
+            "image": "el-escondite-home-mobile.png",
+            "url": "https://el-escondite.vercel.app/"
         },
         {
             "id": 5,
-            "title": "Catálogo de Productos",
-            "description": "Un catálogo para explorar productos variados.",
-            "image": "artesaniaskelly-home-mobile.png",
-            "url": "https://artesaniaskelly.com.sv/"
+            "title": "Hotel y Restaurante",
+            "description": "Sitio web de hotel y restaurante, reservas e información.",
+            "image": "pirramar-home-mobile.png",
+            "url": "https://grupoavilesan.com/"
         },
         {
             "id": 6,
-            "title": "Hotel y Turismo",
-            "description": "Un sitio para reservar y gestionar estancias en hoteles.",
-            "image": "cabanasymiradorelpericon-home-mobile.png",
-            "url": "https://cabanasymiradorelpericon.com.sv/"
-        },
-        {
-            "id": 7,
             "title": "Blog de Ciencias",
             "description": "Un blog para compartir conocimientos y proyectos de ciencias.",
             "image": "infoquest-home-mobile.png",
             "url": "https://andresalfaro7.github.io/info-quest"
+        },
+        {
+            "id": 7,
+            "title": "Medidores de Ecoeficiencia",
+            "description": "Herramientas para medir y mejorar la eficiencia energética.",
+            "image": "ecoeficiencia-home-mobile.png",
+            "url": "#"
         }
     ]
 }
